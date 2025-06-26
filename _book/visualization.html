@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>6 05 Visualization | A Simple R Cookbook for Wet Lab Biologists</title>
+  <meta name="description" content="6 05 Visualization | A Simple R Cookbook for Wet Lab Biologists" />
+  <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="6 05 Visualization | A Simple R Cookbook for Wet Lab Biologists" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="6 05 Visualization | A Simple R Cookbook for Wet Lab Biologists" />
+  
+  
+  
+
+<meta name="author" content="Monah Abou Alezz" />
+
+
+<meta name="date" content="2025-06-26" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="data-wrangling.html"/>
+<link rel="next" href="bioinformatics.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Simple R Cookbook</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#why-this-book"><i class="fa fa-check"></i><b>1.1</b> Why This Book?</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#who-is-this-book-for"><i class="fa fa-check"></i><b>2.1</b> Who Is This Book For?</a></li>
+<li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#what-you-will-learn"><i class="fa fa-check"></i><b>2.2</b> What You Will Learn</a></li>
+<li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#what-this-book-is-not"><i class="fa fa-check"></i><b>2.3</b> What This Book Is <em>Not</em></a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>3</b> 02 Getting Started</a></li>
+<li class="chapter" data-level="4" data-path="data-import.html"><a href="data-import.html"><i class="fa fa-check"></i><b>4</b> 03 Data Import</a></li>
+<li class="chapter" data-level="5" data-path="data-wrangling.html"><a href="data-wrangling.html"><i class="fa fa-check"></i><b>5</b> 04 Data Wrangling</a></li>
+<li class="chapter" data-level="6" data-path="visualization.html"><a href="visualization.html"><i class="fa fa-check"></i><b>6</b> 05 Visualization</a></li>
+<li class="chapter" data-level="7" data-path="bioinformatics.html"><a href="bioinformatics.html"><i class="fa fa-check"></i><b>7</b> 06 Bioinformatics</a></li>
+<li class="chapter" data-level="8" data-path="statistics.html"><a href="statistics.html"><i class="fa fa-check"></i><b>8</b> 07 Statistics</a></li>
+<li class="chapter" data-level="9" data-path="rmarkdown.html"><a href="rmarkdown.html"><i class="fa fa-check"></i><b>9</b> 08 Rmarkdown</a></li>
+<li class="chapter" data-level="10" data-path="troubleshooting.html"><a href="troubleshooting.html"><i class="fa fa-check"></i><b>10</b> 09 Troubleshooting</a></li>
+<li class="chapter" data-level="11" data-path="appendices.html"><a href="appendices.html"><i class="fa fa-check"></i><b>11</b> 10 Appendices</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">A Simple R Cookbook for Wet Lab Biologists</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="visualization" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">6</span> 05 Visualization<a href="visualization.html#visualization" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Content coming soon.</p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="data-wrangling.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="bioinformatics.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": null,
+    "text": null
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["simple-r-cookbook.pdf", "simple-r-cookbook.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "section"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>

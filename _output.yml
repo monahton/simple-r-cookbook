@@ -1,0 +1,9 @@
+bookdown::gitbook:
+  css: style.css
+  split_by: chapter
+  config:
+    toc:
+      collapse: section
+      before: |
+        <li><a href='./'>Simple R Cookbook</a></li>
+    download: [pdf, epub]

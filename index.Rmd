@@ -1,0 +1,25 @@
+---
+title: "A Simple R Cookbook for Wet Lab Biologists"
+author: "Monah Abou Alezz"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+output:
+  bookdown::gitbook:
+    css: style.css
+    config:
+      toc:
+        before: |
+          <li><a href="./">A Simple R Cookbook</a></li>
+      download: ["pdf", "epub"]
+---
+
+# Welcome
+
+Welcome to **A Simple R Cookbook for Wet Lab Biologists**!  
+This book is written for life scientists who want to learn R for everyday data analysis in the lab.
+
+## Why This Book?
+
+As a wet lab biologist, you're already collecting valuable data whether from qPCR, RNA-seq, imaging, or ELISAs. R is a powerful tool that lets you analyze, visualize, and share your data reproducibly and efficiently. This cookbook teaches you how to do that with clear, bite-sized recipes.
+

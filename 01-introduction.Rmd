@@ -1,0 +1,24 @@
+# Introduction
+
+## Who Is This Book For?
+
+This book is for wet lab researchers, particularly those with little or no coding experience, who want to use R for:
+- Organizing data from experiments
+- Performing basic statistical analysis
+- Creating publication-ready figures
+- Conducting simple bioinformatics workflows
+
+If you're a biologist who’s ever opened Excel and thought, "There must be a better way," this book is for you.
+
+## What You Will Learn
+
+By the end of this book, you’ll be able to:
+- Read and clean your experimental data
+- Perform key analyses like t-tests, ANOVAs, or DEGs
+- Make beautiful plots using `ggplot2`
+- Write simple R scripts and reports using R Markdown
+
+## What This Book Is *Not*
+
+This is not a book about programming theory, advanced statistics, or complex machine learning. It’s about **practical recipes** to make your life in the lab easier and your results clearer.
+

@@ -1,0 +1,15 @@
+welcome
+why-this-book
+introduction
+who-is-this-book-for
+what-you-will-learn
+what-this-book-is-not
+getting-started
+data-import
+data-wrangling
+visualization
+bioinformatics
+statistics
+rmarkdown
+troubleshooting
+appendices
