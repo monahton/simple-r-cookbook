@@ -1,9 +1,13 @@
 welcome
 why-this-book
-introduction
-who-is-this-book-for
+who-should-read-this-book
 what-you-will-learn
 what-this-book-is-not
+citation
+introduction
+who-is-this-book-for
+what-you-will-learn-1
+what-this-book-is-not-1
 getting-started
 data-import
 data-wrangling
