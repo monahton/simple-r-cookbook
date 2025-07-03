@@ -1,3 +1,100 @@
-# 02 Getting Started
+# Getting Started
 
-Content coming soon.
+## Navigating RStudio Like a Pro (or at Least Like You’ve Used It Before)
+
+When you first open **RStudio**, you might feel like you’ve accidentally launched a spaceship dashboard. Don’t worry — you’re not alone. Let's break it down:
+
+RStudio is typically divided into **four panes**:
+
+1. **Console** (bottom left):  
+   This is where R does the talking. You type code here, R runs it, and outputs appear right away.
+
+2. **Source** (top left):  
+   This is where you write and save scripts (`.R` files, `.Rmd` files, etc.). Think of it as your lab notebook — but smarter and less likely to get coffee-stained.
+
+3. **Environment/History** (top right):  
+   Here you’ll see all the variables and objects you've created (like your tidy data frames or test results), and a history of commands you've run.
+
+4. **Files/Plots/Packages/Help/Viewer** (bottom right):  
+   A multitool: browse your files, view plots, install packages, read help files, and more. It’s like the utility belt for your R lab work.
+
+If something disappears, don’t panic. Go to **View > Panes** and bring it back.
+
+---
+
+## Getting Set Up: Creating a Project
+
+Before writing any code, you’ll want to create an **RStudio Project**. Why?
+
+Because:
+- It helps R keep track of your files
+- It keeps your working directory consistent (no more mystery paths)
+- It makes collaboration easier
+- It gives you peace of mind
+
+### To create a new project:
+
+1. Go to **File > New Project**
+2. Choose **New Directory**
+3. Pick **Book project using bookdown** (if you're writing this book)
+4. Give your project a name (e.g., `simple-r-cookbook`)
+5. Choose a location for it
+6. Click **Create Project**
+
+💡 Pro tip: Your project will have a file ending in `.Rproj` — this is your golden ticket. Always open this file to launch your project.
+
+---
+
+## Organizing Your Project Directory
+
+A little structure goes a long way — especially when your files start multiplying like bacteria in rich media.
+
+Here’s a recommended layout:
+
+> simple-r-cookbook/   
+├── data/ # Raw and cleaned datasets (CSV, XLSX, etc.)  
+├── figures/ # Plots, diagrams, and exported images  
+├── scripts/ # R scripts you write (optional if using bookdown)  
+├── output # results from the various analyses  
+├── docs # additional log files, papers, ...etc  
+
+> 📦 Keep things tidy. If you’ve ever opened a folder called “final_final_correct_version2.xlsx”, you already know why.
+
+
+---
+
+## Console vs Script: What’s the Difference?
+
+In RStudio, you can write R code in two places:
+
+- The **Console** is for quick one-off commands. It's like talking to R in real time.  
+  Example: `2 + 2` or `getwd()`
+
+- The **Script editor** is where you write and save full workflows or analyses. It’s like your digital lab notebook that doesn't forget things.
+
+Here’s why you should **use scripts as much as possible**:
+- You can save your code and come back to it later
+- You can re-run everything with one click (or `Ctrl + Shift + Enter`)
+- You can annotate your code with comments (starting with `#`) to explain what you're doing (and why)
+- You can avoid repeating yourself
+
+> Console = Post-it note  
+> Script = Protocol in your lab notebook
+
+Both have their place, but your future self will thank you for using scripts.
+
+Ready to run your first bit of code? Try this in your console:
+
+```{r}
+message("Hello, biologist! You’re now officially coding.")
+```
+
+
+
+
+
+
+
+
+
+

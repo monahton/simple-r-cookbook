@@ -23,7 +23,7 @@
 <meta name="author" content="Monah Abou Alezz" />
 
 
-<meta name="date" content="2025-06-26" />
+<meta name="date" content="2025-07-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -54,6 +54,70 @@
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -87,19 +151,20 @@
 <li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#a-little-history-wont-hurt"><i class="fa fa-check"></i><b>2.1</b> A Little History won’t hurt…</a></li>
-<li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#why-use-r"><i class="fa fa-check"></i><b>2.2</b> Why Use R?</a>
-<ul>
-<li class="chapter" data-level="2.2.1" data-path="introduction.html"><a href="introduction.html#r-can-handle-much-larger-datasets"><i class="fa fa-check"></i><b>2.2.1</b> 📦 1. R Can Handle Much Larger Datasets</a></li>
-<li class="chapter" data-level="2.2.2" data-path="introduction.html"><a href="introduction.html#r-is-scriptable-reproducible"><i class="fa fa-check"></i><b>2.2.2</b> 🔁 2. R Is Scriptable = Reproducible</a></li>
-<li class="chapter" data-level="2.2.3" data-path="introduction.html"><a href="introduction.html#r-is-open-source"><i class="fa fa-check"></i><b>2.2.3</b> 💸 3. R Is Open Source!</a></li>
-<li class="chapter" data-level="2.2.4" data-path="introduction.html"><a href="introduction.html#r-works-everywhere"><i class="fa fa-check"></i><b>2.2.4</b> 💻 4. R Works Everywhere</a></li>
-<li class="chapter" data-level="2.2.5" data-path="introduction.html"><a href="introduction.html#r-is-everywhere-in-science"><i class="fa fa-check"></i><b>2.2.5</b> 🌍 5. R Is Everywhere in Science</a></li>
-<li class="chapter" data-level="2.2.6" data-path="introduction.html"><a href="introduction.html#r-has-an-active-community"><i class="fa fa-check"></i><b>2.2.6</b> 🛠 6. R Has an Active Community</a></li>
-</ul></li>
+<li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#why-use-r"><i class="fa fa-check"></i><b>2.2</b> Why Use R?</a></li>
 <li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#r-for-bioinformatics-yes-please"><i class="fa fa-check"></i><b>2.3</b> R for Bioinformatics? <em>Yes, Please!</em></a></li>
 <li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#whats-rstudio-and-how-is-it-different-from-r"><i class="fa fa-check"></i><b>2.4</b> What’s RStudio and How Is It Different from R?</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>3</b> 02 Getting Started</a></li>
+<li class="chapter" data-level="3" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>3</b> Getting Started</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="getting-started.html"><a href="getting-started.html#navigating-rstudio-like-a-pro-or-at-least-like-youve-used-it-before"><i class="fa fa-check"></i><b>3.1</b> Navigating RStudio Like a Pro (or at Least Like You’ve Used It Before)</a></li>
+<li class="chapter" data-level="3.2" data-path="getting-started.html"><a href="getting-started.html#getting-set-up-creating-a-project"><i class="fa fa-check"></i><b>3.2</b> Getting Set Up: Creating a Project</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="getting-started.html"><a href="getting-started.html#to-create-a-new-project"><i class="fa fa-check"></i><b>3.2.1</b> To create a new project:</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="getting-started.html"><a href="getting-started.html#organizing-your-project-directory"><i class="fa fa-check"></i><b>3.3</b> Organizing Your Project Directory</a></li>
+<li class="chapter" data-level="3.4" data-path="getting-started.html"><a href="getting-started.html#console-vs-script-whats-the-difference"><i class="fa fa-check"></i><b>3.4</b> Console vs Script: What’s the Difference?</a></li>
+</ul></li>
 <li class="chapter" data-level="4" data-path="data-import.html"><a href="data-import.html"><i class="fa fa-check"></i><b>4</b> 03 Data Import</a></li>
 <li class="chapter" data-level="5" data-path="data-wrangling.html"><a href="data-wrangling.html"><i class="fa fa-check"></i><b>5</b> 04 Data Wrangling</a></li>
 <li class="chapter" data-level="6" data-path="visualization.html"><a href="visualization.html"><i class="fa fa-check"></i><b>6</b> 05 Visualization</a></li>

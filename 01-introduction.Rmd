@@ -16,25 +16,21 @@ S was originally developed at Bell Labs in the 1970s for statistical computing. 
 
 ## Why Use R?
 
-Still wondering why you should learn R instead of just sticking with Excel or some point-and-click software? Here's what makes R an absolute game-changer especially for wet lab scientists:
+Still wondering why you should learn R instead of just sticking with Excel or some point-and-click software?  
+Here's what makes R an absolute game-changer especially for wet lab scientists:
 
-### 📦 1. R Can Handle Much Larger Datasets  
-While Excel starts crashing at ~1 million rows, R just stretches and says, “Cool, what’s next?” With efficient data structures and memory management, R can comfortably handle large-scale datasets. Think of gene expression matrices, proteomics tables, or high-throughput screening results.
-
-### 🔁 2. R Is Scriptable = Reproducible  
-Every click in Excel is a mystery. Every line in R is a documented, reproducible step. You can rerun your entire analysis with a single script — no more "I have no idea how I made this figure."
-
-### 💸 3. R Is Open Source!  
-That’s right, it is totally free! No license fees, no paywalls, no trials. Just install it and go. You can also install thousands of R packages without needing a university budget or a support contract.
-
-### 💻 4. R Works Everywhere  
-R runs on **Windows**, **Mac**, **Linux**, and even the **cloud** if for some reason you do not want to install it on your device. You can also write your code on a laptop and run it later on a cluster, server, or cloud-based platform like RStudio Cloud or Binder.
-
-### 🌍 5. R Is Everywhere in Science  
-R is used by academic labs, pharma companies, bioinformatics cores, government agencies, and more. If there’s a paper with a volcano plot in it, odds are someone used R.
-
-### 🛠 6. R Has an Active Community  
-There are thousands of developers and contributors constantly improving R. Need a new tool? Someone’s probably already written a package for it. If not, you can write one yourself and become internet-famous (kind of).
+-📦 **1. R Can Handle Much Larger Datasets**  
+While Excel starts crashing at ~1 million rows, R just stretches and says, “Cool, what’s next?” With efficient data structures and memory management, R can comfortably handle large-scale datasets. Think of gene expression matrices, proteomics tables, or high-throughput screening results.  
+- 🔁 **2. R Is Scriptable = Reproducible**  
+Every click in Excel is a mystery. Every line in R is a documented, reproducible step. You can rerun your entire analysis with a single script — no more "I have no idea how I made this figure."  
+- 💸 **3. R Is Open Source!**    
+That’s right, it is totally free! No license fees, no paywalls, no trials. Just install it and go. You can also install thousands of R packages without needing a university budget or a support contract.  
+- 💻 **4. R Works Everywhere**  
+R runs on **Windows**, **Mac**, **Linux**, and even the **cloud** if for some reason you do not want to install it on your device. You can also write your code on a laptop and run it later on a cluster, server, or cloud-based platform like RStudio Cloud or Binder.  
+- 🌍 **5. R Is Everywhere in Science**  
+R is used by academic labs, pharma companies, bioinformatics cores, government agencies, and more. If there’s a paper with a volcano plot in it, odds are someone used R.  
+- 🛠 **6. R Has an Active Community**  
+There are thousands of developers and contributors constantly improving R. Need a new tool? Someone’s probably already written a package for it. If not, you can write one yourself and become internet-famous (kind of).  
 
 ---
 
@@ -60,11 +56,11 @@ It’s integrated into pipelines and workflows used by researchers around the wo
 ## What’s RStudio and How Is It Different from R?
 
 That's a great question!  
-You have probably heard before people using the terms R and RStudio interchangeably. While they are related and most of the time ( _more or less_ ) referring to the same thing, they are not quitely the same:
+You have probably heard before people using the terms R and RStudio interchangeably. While they are related and most of the time ( _more or less_ ) referring to the same thing, they are not quietly the same:
 
 - **R** is the programming language itself. It is what runs the different functions and make the analyses.
 
-- **RStudio** is the **dashboard**. It gives you buttons, panels, a file explorer, syntax highlighting, plots that appear like magic, and even a built-in terminal.
+- **RStudio** is an integrated development environment (IDE) that makes using R easier. In simple English, it is an interface that shows you buttons, panels, a file explorer, syntax highlighting, plots that appear like magic, and even a built-in terminal. 
 
 To make the difference clear, here’s an analogy:
 

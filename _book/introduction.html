@@ -23,7 +23,7 @@
 <meta name="author" content="Monah Abou Alezz" />
 
 
-<meta name="date" content="2025-06-26" />
+<meta name="date" content="2025-07-03" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -54,6 +54,70 @@
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -87,19 +151,20 @@
 <li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#a-little-history-wont-hurt"><i class="fa fa-check"></i><b>2.1</b> A Little History won’t hurt…</a></li>
-<li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#why-use-r"><i class="fa fa-check"></i><b>2.2</b> Why Use R?</a>
-<ul>
-<li class="chapter" data-level="2.2.1" data-path="introduction.html"><a href="introduction.html#r-can-handle-much-larger-datasets"><i class="fa fa-check"></i><b>2.2.1</b> 📦 1. R Can Handle Much Larger Datasets</a></li>
-<li class="chapter" data-level="2.2.2" data-path="introduction.html"><a href="introduction.html#r-is-scriptable-reproducible"><i class="fa fa-check"></i><b>2.2.2</b> 🔁 2. R Is Scriptable = Reproducible</a></li>
-<li class="chapter" data-level="2.2.3" data-path="introduction.html"><a href="introduction.html#r-is-open-source"><i class="fa fa-check"></i><b>2.2.3</b> 💸 3. R Is Open Source!</a></li>
-<li class="chapter" data-level="2.2.4" data-path="introduction.html"><a href="introduction.html#r-works-everywhere"><i class="fa fa-check"></i><b>2.2.4</b> 💻 4. R Works Everywhere</a></li>
-<li class="chapter" data-level="2.2.5" data-path="introduction.html"><a href="introduction.html#r-is-everywhere-in-science"><i class="fa fa-check"></i><b>2.2.5</b> 🌍 5. R Is Everywhere in Science</a></li>
-<li class="chapter" data-level="2.2.6" data-path="introduction.html"><a href="introduction.html#r-has-an-active-community"><i class="fa fa-check"></i><b>2.2.6</b> 🛠 6. R Has an Active Community</a></li>
-</ul></li>
+<li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#why-use-r"><i class="fa fa-check"></i><b>2.2</b> Why Use R?</a></li>
 <li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#r-for-bioinformatics-yes-please"><i class="fa fa-check"></i><b>2.3</b> R for Bioinformatics? <em>Yes, Please!</em></a></li>
 <li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#whats-rstudio-and-how-is-it-different-from-r"><i class="fa fa-check"></i><b>2.4</b> What’s RStudio and How Is It Different from R?</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>3</b> 02 Getting Started</a></li>
+<li class="chapter" data-level="3" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>3</b> Getting Started</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="getting-started.html"><a href="getting-started.html#navigating-rstudio-like-a-pro-or-at-least-like-youve-used-it-before"><i class="fa fa-check"></i><b>3.1</b> Navigating RStudio Like a Pro (or at Least Like You’ve Used It Before)</a></li>
+<li class="chapter" data-level="3.2" data-path="getting-started.html"><a href="getting-started.html#getting-set-up-creating-a-project"><i class="fa fa-check"></i><b>3.2</b> Getting Set Up: Creating a Project</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="getting-started.html"><a href="getting-started.html#to-create-a-new-project"><i class="fa fa-check"></i><b>3.2.1</b> To create a new project:</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="getting-started.html"><a href="getting-started.html#organizing-your-project-directory"><i class="fa fa-check"></i><b>3.3</b> Organizing Your Project Directory</a></li>
+<li class="chapter" data-level="3.4" data-path="getting-started.html"><a href="getting-started.html#console-vs-script-whats-the-difference"><i class="fa fa-check"></i><b>3.4</b> Console vs Script: What’s the Difference?</a></li>
+</ul></li>
 <li class="chapter" data-level="4" data-path="data-import.html"><a href="data-import.html"><i class="fa fa-check"></i><b>4</b> 03 Data Import</a></li>
 <li class="chapter" data-level="5" data-path="data-wrangling.html"><a href="data-wrangling.html"><i class="fa fa-check"></i><b>5</b> 04 Data Wrangling</a></li>
 <li class="chapter" data-level="6" data-path="visualization.html"><a href="visualization.html"><i class="fa fa-check"></i><b>6</b> 05 Visualization</a></li>
@@ -141,32 +206,21 @@
 </div>
 <div id="why-use-r" class="section level2 hasAnchor" number="2.2">
 <h2><span class="header-section-number">2.2</span> Why Use R?<a href="introduction.html#why-use-r" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Still wondering why you should learn R instead of just sticking with Excel or some point-and-click software? Here’s what makes R an absolute game-changer especially for wet lab scientists:</p>
-<div id="r-can-handle-much-larger-datasets" class="section level3 hasAnchor" number="2.2.1">
-<h3><span class="header-section-number">2.2.1</span> 📦 1. R Can Handle Much Larger Datasets<a href="#r-can-handle-much-larger-datasets" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>While Excel starts crashing at ~1 million rows, R just stretches and says, “Cool, what’s next?” With efficient data structures and memory management, R can comfortably handle large-scale datasets. Think of gene expression matrices, proteomics tables, or high-throughput screening results.</p>
-</div>
-<div id="r-is-scriptable-reproducible" class="section level3 hasAnchor" number="2.2.2">
-<h3><span class="header-section-number">2.2.2</span> 🔁 2. R Is Scriptable = Reproducible<a href="#r-is-scriptable-reproducible" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>Every click in Excel is a mystery. Every line in R is a documented, reproducible step. You can rerun your entire analysis with a single script — no more “I have no idea how I made this figure.”</p>
-</div>
-<div id="r-is-open-source" class="section level3 hasAnchor" number="2.2.3">
-<h3><span class="header-section-number">2.2.3</span> 💸 3. R Is Open Source!<a href="#r-is-open-source" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>That’s right, it is totally free! No license fees, no paywalls, no trials. Just install it and go. You can also install thousands of R packages without needing a university budget or a support contract.</p>
-</div>
-<div id="r-works-everywhere" class="section level3 hasAnchor" number="2.2.4">
-<h3><span class="header-section-number">2.2.4</span> 💻 4. R Works Everywhere<a href="#r-works-everywhere" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>R runs on <strong>Windows</strong>, <strong>Mac</strong>, <strong>Linux</strong>, and even the <strong>cloud</strong> if for some reason you do not want to install it on your device. You can also write your code on a laptop and run it later on a cluster, server, or cloud-based platform like RStudio Cloud or Binder.</p>
-</div>
-<div id="r-is-everywhere-in-science" class="section level3 hasAnchor" number="2.2.5">
-<h3><span class="header-section-number">2.2.5</span> 🌍 5. R Is Everywhere in Science<a href="#r-is-everywhere-in-science" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>R is used by academic labs, pharma companies, bioinformatics cores, government agencies, and more. If there’s a paper with a volcano plot in it, odds are someone used R.</p>
-</div>
-<div id="r-has-an-active-community" class="section level3 hasAnchor" number="2.2.6">
-<h3><span class="header-section-number">2.2.6</span> 🛠 6. R Has an Active Community<a href="#r-has-an-active-community" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p>There are thousands of developers and contributors constantly improving R. Need a new tool? Someone’s probably already written a package for it. If not, you can write one yourself and become internet-famous (kind of).</p>
+<p>Still wondering why you should learn R instead of just sticking with Excel or some point-and-click software?<br />
+Here’s what makes R an absolute game-changer especially for wet lab scientists:</p>
+<p>-📦 <strong>1. R Can Handle Much Larger Datasets</strong><br />
+While Excel starts crashing at ~1 million rows, R just stretches and says, “Cool, what’s next?” With efficient data structures and memory management, R can comfortably handle large-scale datasets. Think of gene expression matrices, proteomics tables, or high-throughput screening results.<br />
+- 🔁 <strong>2. R Is Scriptable = Reproducible</strong><br />
+Every click in Excel is a mystery. Every line in R is a documented, reproducible step. You can rerun your entire analysis with a single script — no more “I have no idea how I made this figure.”<br />
+- 💸 <strong>3. R Is Open Source!</strong><br />
+That’s right, it is totally free! No license fees, no paywalls, no trials. Just install it and go. You can also install thousands of R packages without needing a university budget or a support contract.<br />
+- 💻 <strong>4. R Works Everywhere</strong><br />
+R runs on <strong>Windows</strong>, <strong>Mac</strong>, <strong>Linux</strong>, and even the <strong>cloud</strong> if for some reason you do not want to install it on your device. You can also write your code on a laptop and run it later on a cluster, server, or cloud-based platform like RStudio Cloud or Binder.<br />
+- 🌍 <strong>5. R Is Everywhere in Science</strong><br />
+R is used by academic labs, pharma companies, bioinformatics cores, government agencies, and more. If there’s a paper with a volcano plot in it, odds are someone used R.<br />
+- 🛠 <strong>6. R Has an Active Community</strong><br />
+There are thousands of developers and contributors constantly improving R. Need a new tool? Someone’s probably already written a package for it. If not, you can write one yourself and become internet-famous (kind of).</p>
 <hr />
-</div>
 </div>
 <div id="r-for-bioinformatics-yes-please" class="section level2 hasAnchor" number="2.3">
 <h2><span class="header-section-number">2.3</span> R for Bioinformatics? <em>Yes, Please!</em><a href="introduction.html#r-for-bioinformatics-yes-please" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -189,10 +243,10 @@
 <div id="whats-rstudio-and-how-is-it-different-from-r" class="section level2 hasAnchor" number="2.4">
 <h2><span class="header-section-number">2.4</span> What’s RStudio and How Is It Different from R?<a href="introduction.html#whats-rstudio-and-how-is-it-different-from-r" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>That’s a great question!<br />
-You have probably heard before people using the terms R and RStudio interchangeably. While they are related and most of the time ( <em>more or less</em> ) referring to the same thing, they are not quitely the same:</p>
+You have probably heard before people using the terms R and RStudio interchangeably. While they are related and most of the time ( <em>more or less</em> ) referring to the same thing, they are not quietly the same:</p>
 <ul>
 <li><p><strong>R</strong> is the programming language itself. It is what runs the different functions and make the analyses.</p></li>
-<li><p><strong>RStudio</strong> is the <strong>dashboard</strong>. It gives you buttons, panels, a file explorer, syntax highlighting, plots that appear like magic, and even a built-in terminal.</p></li>
+<li><p><strong>RStudio</strong> is an integrated development environment (IDE) that makes using R easier. In simple English, it is an interface that shows you buttons, panels, a file explorer, syntax highlighting, plots that appear like magic, and even a built-in terminal.</p></li>
 </ul>
 <p>To make the difference clear, here’s an analogy:</p>
 <blockquote>
