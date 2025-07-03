@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>4 03 Data Import | A Simple R Cookbook for Wet Lab Biologists</title>
-  <meta name="description" content="4 03 Data Import | A Simple R Cookbook for Wet Lab Biologists" />
+  <title>4 Data Import | A Simple R Cookbook for Wet Lab Biologists</title>
+  <meta name="description" content="4 Data Import | A Simple R Cookbook for Wet Lab Biologists" />
   <meta name="generator" content="bookdown 0.43 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="4 03 Data Import | A Simple R Cookbook for Wet Lab Biologists" />
+  <meta property="og:title" content="4 Data Import | A Simple R Cookbook for Wet Lab Biologists" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="4 03 Data Import | A Simple R Cookbook for Wet Lab Biologists" />
+  <meta name="twitter:title" content="4 Data Import | A Simple R Cookbook for Wet Lab Biologists" />
   
   
   
@@ -30,7 +30,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="getting-started.html"/>
+<link rel="prev" href="bioinformatics.html"/>
 <link rel="next" href="data-wrangling.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -148,31 +148,39 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#what-this-book-is-not"><i class="fa fa-check"></i><b>1.4</b> What This Book Is <em>Not</em></a></li>
 <li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#citation"><i class="fa fa-check"></i><b>1.5</b> Citation</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>2</b> Introduction</a>
+<li class="chapter" data-level="2" data-path="appendices.html"><a href="appendices.html"><i class="fa fa-check"></i><b>2</b> Appendices</a></li>
+<li class="chapter" data-level="3" data-path="bioinformatics.html"><a href="bioinformatics.html"><i class="fa fa-check"></i><b>3</b> Bioinformatics</a></li>
+<li class="chapter" data-level="4" data-path="data-import.html"><a href="data-import.html"><i class="fa fa-check"></i><b>4</b> Data Import</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="introduction.html"><a href="introduction.html#a-little-history-wont-hurt"><i class="fa fa-check"></i><b>2.1</b> A Little History won’t hurt…</a></li>
-<li class="chapter" data-level="2.2" data-path="introduction.html"><a href="introduction.html#why-use-r"><i class="fa fa-check"></i><b>2.2</b> Why Use R?</a></li>
-<li class="chapter" data-level="2.3" data-path="introduction.html"><a href="introduction.html#r-for-bioinformatics-yes-please"><i class="fa fa-check"></i><b>2.3</b> R for Bioinformatics? <em>Yes, Please!</em></a></li>
-<li class="chapter" data-level="2.4" data-path="introduction.html"><a href="introduction.html#whats-rstudio-and-how-is-it-different-from-r"><i class="fa fa-check"></i><b>2.4</b> What’s RStudio and How Is It Different from R?</a></li>
-</ul></li>
-<li class="chapter" data-level="3" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>3</b> Getting Started</a>
+<li class="chapter" data-level="4.1" data-path="data-import.html"><a href="data-import.html#meet-your-new-favorite-dataset"><i class="fa fa-check"></i><b>4.1</b> Meet Your New Favorite Dataset</a>
 <ul>
-<li class="chapter" data-level="3.1" data-path="getting-started.html"><a href="getting-started.html#navigating-rstudio-like-a-pro-or-at-least-like-youve-used-it-before"><i class="fa fa-check"></i><b>3.1</b> Navigating RStudio Like a Pro (or at Least Like You’ve Used It Before)</a></li>
-<li class="chapter" data-level="3.2" data-path="getting-started.html"><a href="getting-started.html#getting-set-up-creating-a-project"><i class="fa fa-check"></i><b>3.2</b> Getting Set Up: Creating a Project</a>
+<li class="chapter" data-level="4.1.1" data-path="data-import.html"><a href="data-import.html#column-descriptions"><i class="fa fa-check"></i><b>4.1.1</b> 🧬 Column Descriptions</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="data-import.html"><a href="data-import.html#load-the-tidyverse-first"><i class="fa fa-check"></i><b>4.2</b> Load the Tidyverse First</a></li>
+<li class="chapter" data-level="4.3" data-path="data-import.html"><a href="data-import.html#importing-the-dataset"><i class="fa fa-check"></i><b>4.3</b> Importing the Dataset</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="data-wrangling.html"><a href="data-wrangling.html"><i class="fa fa-check"></i><b>5</b> Data Wrangling</a></li>
+<li class="chapter" data-level="6" data-path="getting-started.html"><a href="getting-started.html"><i class="fa fa-check"></i><b>6</b> Getting Started</a>
 <ul>
-<li class="chapter" data-level="3.2.1" data-path="getting-started.html"><a href="getting-started.html#to-create-a-new-project"><i class="fa fa-check"></i><b>3.2.1</b> To create a new project:</a></li>
+<li class="chapter" data-level="6.1" data-path="getting-started.html"><a href="getting-started.html#navigating-rstudio-like-a-pro-or-at-least-like-youve-used-it-before"><i class="fa fa-check"></i><b>6.1</b> Navigating RStudio Like a Pro (or at Least Like You’ve Used It Before)</a></li>
+<li class="chapter" data-level="6.2" data-path="getting-started.html"><a href="getting-started.html#getting-set-up-creating-a-project"><i class="fa fa-check"></i><b>6.2</b> Getting Set Up: Creating a Project</a>
+<ul>
+<li class="chapter" data-level="6.2.1" data-path="getting-started.html"><a href="getting-started.html#to-create-a-new-project"><i class="fa fa-check"></i><b>6.2.1</b> To create a new project:</a></li>
 </ul></li>
-<li class="chapter" data-level="3.3" data-path="getting-started.html"><a href="getting-started.html#organizing-your-project-directory"><i class="fa fa-check"></i><b>3.3</b> Organizing Your Project Directory</a></li>
-<li class="chapter" data-level="3.4" data-path="getting-started.html"><a href="getting-started.html#console-vs-script-whats-the-difference"><i class="fa fa-check"></i><b>3.4</b> Console vs Script: What’s the Difference?</a></li>
+<li class="chapter" data-level="6.3" data-path="getting-started.html"><a href="getting-started.html#organizing-your-project-directory"><i class="fa fa-check"></i><b>6.3</b> Organizing Your Project Directory</a></li>
+<li class="chapter" data-level="6.4" data-path="getting-started.html"><a href="getting-started.html#console-vs-script-whats-the-difference"><i class="fa fa-check"></i><b>6.4</b> Console vs Script: What’s the Difference?</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="data-import.html"><a href="data-import.html"><i class="fa fa-check"></i><b>4</b> 03 Data Import</a></li>
-<li class="chapter" data-level="5" data-path="data-wrangling.html"><a href="data-wrangling.html"><i class="fa fa-check"></i><b>5</b> 04 Data Wrangling</a></li>
-<li class="chapter" data-level="6" data-path="visualization.html"><a href="visualization.html"><i class="fa fa-check"></i><b>6</b> 05 Visualization</a></li>
-<li class="chapter" data-level="7" data-path="bioinformatics.html"><a href="bioinformatics.html"><i class="fa fa-check"></i><b>7</b> 06 Bioinformatics</a></li>
-<li class="chapter" data-level="8" data-path="statistics.html"><a href="statistics.html"><i class="fa fa-check"></i><b>8</b> 07 Statistics</a></li>
-<li class="chapter" data-level="9" data-path="rmarkdown.html"><a href="rmarkdown.html"><i class="fa fa-check"></i><b>9</b> 08 Rmarkdown</a></li>
-<li class="chapter" data-level="10" data-path="troubleshooting.html"><a href="troubleshooting.html"><i class="fa fa-check"></i><b>10</b> 09 Troubleshooting</a></li>
-<li class="chapter" data-level="11" data-path="appendices.html"><a href="appendices.html"><i class="fa fa-check"></i><b>11</b> 10 Appendices</a></li>
+<li class="chapter" data-level="7" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>7</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="introduction.html"><a href="introduction.html#a-little-history-wont-hurt"><i class="fa fa-check"></i><b>7.1</b> A Little History won’t hurt…</a></li>
+<li class="chapter" data-level="7.2" data-path="introduction.html"><a href="introduction.html#why-use-r"><i class="fa fa-check"></i><b>7.2</b> Why Use R?</a></li>
+<li class="chapter" data-level="7.3" data-path="introduction.html"><a href="introduction.html#r-for-bioinformatics-yes-please"><i class="fa fa-check"></i><b>7.3</b> R for Bioinformatics? <em>Yes, Please!</em></a></li>
+<li class="chapter" data-level="7.4" data-path="introduction.html"><a href="introduction.html#whats-rstudio-and-how-is-it-different-from-r"><i class="fa fa-check"></i><b>7.4</b> What’s RStudio and How Is It Different from R?</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="rmarkdown.html"><a href="rmarkdown.html"><i class="fa fa-check"></i><b>8</b> Rmarkdown</a></li>
+<li class="chapter" data-level="9" data-path="statistics.html"><a href="statistics.html"><i class="fa fa-check"></i><b>9</b> Statistics</a></li>
+<li class="chapter" data-level="10" data-path="troubleshooting.html"><a href="troubleshooting.html"><i class="fa fa-check"></i><b>10</b> Troubleshooting</a></li>
+<li class="chapter" data-level="11" data-path="visualization.html"><a href="visualization.html"><i class="fa fa-check"></i><b>11</b> Visualization</a></li>
 </ul>
 
       </nav>
@@ -191,16 +199,132 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
             <section class="normal" id="section-">
 <div id="data-import" class="section level1 hasAnchor" number="4">
-<h1><span class="header-section-number">4</span> 03 Data Import<a href="data-import.html#data-import" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Content coming soon.</p>
+<h1><span class="header-section-number">4</span> Data Import<a href="data-import.html#data-import" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Let’s face it — getting your data <em>into</em> R is half the battle. Once it’s in, the magic begins.</p>
+<p>In this section, we’ll walk through how to import real experimental data using the <code>tidyverse</code> package. And good news: we’re going to use a dataset that mimics real-life biological experiments specifically designed for this book. No more pretending your experiments look like iris flowers.</p>
+<hr />
+<div id="meet-your-new-favorite-dataset" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Meet Your New Favorite Dataset<a href="data-import.html#meet-your-new-favorite-dataset" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>We’ll be using a dataset that mimics real-life biological experiments — multiple treatments, time points, and measurements like gene expression, blood pressure, and drug response.</p>
+<p>You can download it using this link.</p>
+<p>This dataset originates from a multi-center longitudinal clinical study designed to evaluate the response of 1,200 cancer patients to three experimental drugs: <strong><em>Drug A, Drug B, and Drug C</em></strong> across five cancer types: lung, breast, colon, prostate, and melanoma. Patients were recruited from 10 different hospitals and followed over six timepoints spanning 12 weeks, with multiple technical replicates per sample.<br />
+The dataset includes patient demographics (age, sex), clinical site information, treatment group, disease type, response status (responder vs. non-responder), longitudinal measurements of two simulated biomarkers, blood pressure, drug dosage, and gene expression levels of two genes.<br />
+The study’s scope is to investigate how these biomarkers and gene expression profiles change over time in relation to drug treatment, dosage, patient characteristics, and clinical response, providing a rich resource for exploring treatment efficacy, molecular correlates of response, and demographic or center-specific effects.</p>
+<div id="column-descriptions" class="section level3 hasAnchor" number="4.1.1">
+<h3><span class="header-section-number">4.1.1</span> 🧬 Column Descriptions<a href="#column-descriptions" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<table>
+<colgroup>
+<col width="58%" />
+<col width="41%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Column</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>PatientID</code></td>
+<td>Unique ID for each patient (e.g., “P000123”). Used to track repeated measurements.</td>
+</tr>
+<tr class="even">
+<td><code>Center</code></td>
+<td>Clinical site where the patient was enrolled. Used to explore hospital-level variability.</td>
+</tr>
+<tr class="odd">
+<td><code>Age</code></td>
+<td>Age of the patient in years. Allows age-based subgroup analysis.</td>
+</tr>
+<tr class="even">
+<td><code>Sex</code></td>
+<td>Biological sex (“Male” or “Female”). May affect treatment response.</td>
+</tr>
+<tr class="odd">
+<td><code>Group</code></td>
+<td>Drug group assigned to the patient: “Drug A”, “Drug B”, or “Drug C”.</td>
+</tr>
+<tr class="even">
+<td><code>DiseaseType</code></td>
+<td>Type of cancer: “Lung”, “Breast”, “Colon”, “Prostate”, or “Melanoma”.</td>
+</tr>
+<tr class="odd">
+<td><code>ResponseStatus</code></td>
+<td>Final outcome: “Responder” or “Non-responder” after 12 weeks of treatment.</td>
+</tr>
+<tr class="even">
+<td><code>Timepoint</code></td>
+<td>When the sample was collected: “Baseline”, “Week1”, …, “Week12”.</td>
+</tr>
+<tr class="odd">
+<td><code>Biomarker1</code></td>
+<td>Simulated concentration of a protein biomarker (e.g., CRP).</td>
+</tr>
+<tr class="even">
+<td><code>Biomarker2</code></td>
+<td>Simulated concentration of a cytokine (e.g., IL-6).</td>
+</tr>
+<tr class="odd">
+<td><code>Replicate</code></td>
+<td>Technical replicate ID (1–5 per patient-timepoint).</td>
+</tr>
+<tr class="even">
+<td><code>BloodPressure</code></td>
+<td>Systolic blood pressure in mmHg. Influenced by age and possibly treatment.</td>
+</tr>
+<tr class="odd">
+<td><code>Dosage_mg</code></td>
+<td>Dose of the drug in milligrams. Varies by group and timepoint.</td>
+</tr>
+<tr class="even">
+<td><code>GeneX_expr</code></td>
+<td>Expression of Gene X (log2 scale). Higher in responders.</td>
+</tr>
+<tr class="odd">
+<td><code>GeneY_expr</code></td>
+<td>Expression of Gene Y (log2 scale). Higher in Lung cancer patients.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>We’ll use this dataset in most of the examples throughout the book, so feel free to open it in a spreadsheet program to peek at it before we load it.</p>
+<hr />
+</div>
+</div>
+<div id="load-the-tidyverse-first" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Load the Tidyverse First<a href="data-import.html#load-the-tidyverse-first" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Before we can import the data, we need to load the package that gives us friendly tools to work with data: the <code>tidyverse</code>.</p>
+<p>If you don’t have it installed yet, you can do that with:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="data-import.html#cb1-1" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">&quot;tidyverse&quot;</span>)</span></code></pre></div>
+<p>After the installation is complete, load the tidyverse package:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="data-import.html#cb2-1" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code></pre></div>
+<blockquote>
+<p>💡 The tidyverse is an umbrella package (i.e a package containing several other packages). It includes readr for reading CSV files, dplyr for data wrangling, and ggplot2 for plotting in addition to a full toolkit for modern R data science.</p>
+</blockquote>
+</div>
+<div id="importing-the-dataset" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Importing the Dataset<a href="data-import.html#importing-the-dataset" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>To import the dataset, we’ll use the <code>read_csv()</code> function from the readr package (part of the tidyverse). It’s faster and cleaner than the base R <code>read.csv()</code> function.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="data-import.html#cb3-1" tabindex="-1"></a><span class="co"># Load the dataset</span></span>
+<span id="cb3-2"><a href="data-import.html#cb3-2" tabindex="-1"></a>bio_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;data/clean_bioexperiment.csv&quot;</span>)</span>
+<span id="cb3-3"><a href="data-import.html#cb3-3" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="data-import.html#cb3-4" tabindex="-1"></a><span class="co"># Peek at it</span></span>
+<span id="cb3-5"><a href="data-import.html#cb3-5" tabindex="-1"></a><span class="fu">glimpse</span>(bio_data)</span></code></pre></div>
+<blockquote>
+<p>Common Gotchas:<br />
+- File not found? Make sure you’re working in the right project. Open the .Rproj file before you start coding!<br />
+- Wrong slashes? Always use forward slashes / in file paths — even on Windows.<br />
+- Excel file? We’ll cover .xlsx files later using readxl::read_excel() — for now we’re sticking with .csv for simplicity.</p>
+</blockquote>
 
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="getting-started.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="bioinformatics.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 <a href="data-wrangling.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>

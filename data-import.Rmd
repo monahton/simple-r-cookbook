@@ -1,0 +1,153 @@
+# Data Import
+
+Let’s face it — getting your data *into* R is half the battle. Once it’s in, the magic begins.
+
+In this section, we’ll walk through how to import real experimental data using the `tidyverse` package. And good news: we’re going to use a dataset that mimics real-life biological experiments specifically designed for this book. No more pretending your experiments look like iris flowers.
+
+---
+
+## Meet Your New Favorite Dataset
+
+We’ll be using a dataset that mimics real-life biological experiments — multiple treatments, time points, and measurements like gene expression, blood pressure, and drug response.
+
+You can download it using this link.  
+
+This dataset originates from a multi-center longitudinal clinical study designed to evaluate the response of 1,200 cancer patients to three experimental drugs: ***Drug A, Drug B, and Drug C*** across five cancer types: lung, breast, colon, prostate, and melanoma. Patients were recruited from 10 different hospitals and followed over six timepoints spanning 12 weeks, with multiple technical replicates per sample.  
+The dataset includes patient demographics (age, sex), clinical site information, treatment group, disease type, response status (responder vs. non-responder), longitudinal measurements of two simulated biomarkers, blood pressure, drug dosage, and gene expression levels of two genes.  
+The study’s scope is to investigate how these biomarkers and gene expression profiles change over time in relation to drug treatment, dosage, patient characteristics, and clinical response, providing a rich resource for exploring treatment efficacy, molecular correlates of response, and demographic or center-specific effects.
+
+### 🧬 Column Descriptions
+
+| Column           | Description |
+|------------------|-------------|
+| `PatientID`      | Unique ID for each patient (e.g., "P000123"). Used to track repeated measurements. |
+| `Center`         | Clinical site where the patient was enrolled. Used to explore hospital-level variability. |
+| `Age`            | Age of the patient in years. Allows age-based subgroup analysis. |
+| `Sex`            | Biological sex ("Male" or "Female"). May affect treatment response. |
+| `Group`          | Drug group assigned to the patient: "Drug A", "Drug B", or "Drug C". |
+| `DiseaseType`    | Type of cancer: "Lung", "Breast", "Colon", "Prostate", or "Melanoma". |
+| `ResponseStatus` | Final outcome: "Responder" or "Non-responder" after 12 weeks of treatment. |
+| `Timepoint`      | When the sample was collected: "Baseline", "Week1", ..., "Week12". |
+| `Biomarker1`     | Simulated concentration of a protein biomarker (e.g., CRP). |
+| `Biomarker2`     | Simulated concentration of a cytokine (e.g., IL-6). |
+| `Replicate`      | Technical replicate ID (1–5 per patient-timepoint). |
+| `BloodPressure`  | Systolic blood pressure in mmHg. Influenced by age and possibly treatment. |
+| `Dosage_mg`      | Dose of the drug in milligrams. Varies by group and timepoint. |
+| `GeneX_expr`     | Expression of Gene X (log2 scale). Higher in responders. |
+| `GeneY_expr`     | Expression of Gene Y (log2 scale). Higher in Lung cancer patients. |
+
+---
+
+We'll use this dataset in most of the examples throughout the book, so feel free to open it in a spreadsheet program to peek at it before we load it.
+
+---
+
+## Load the Tidyverse First
+
+Before we can import the data, we need to load the package that gives us friendly tools to work with data: the `tidyverse`.  
+
+If you don’t have it installed yet, you can do that with:
+
+```{r install_tidyverse, eval=FALSE}
+install.packages("tidyverse")
+```
+
+After the installation is complete, load the tidyverse package:  
+
+```{r load_tidyverse, eval=FALSE}
+library(tidyverse)
+```
+
+
+> 💡 The tidyverse is an umbrella package (i.e a package containing several other packages). It includes readr for reading CSV files, dplyr for data wrangling, and ggplot2 for plotting in addition to a full toolkit for modern R data science.  
+
+
+## Importing the Dataset
+
+
+To import the dataset, we’ll use the `read_csv()` function from the readr package (part of the tidyverse). It’s faster and cleaner than the base R `read.csv()` function.
+
+
+```{r load_dataset, eval=FALSE}
+# Load the dataset
+bio_data <- read_csv("data/clean_bioexperiment.csv")
+
+# Peek at it
+glimpse(bio_data)
+
+```
+
+
+>Common Gotchas:  
+- File not found? Make sure you're working in the right project. Open the .Rproj file before you start coding!  
+- Wrong slashes? Always use forward slashes / in file paths — even on Windows.  
+- Excel file? We’ll cover .xlsx files later using readxl::read_excel() — for now we’re sticking with .csv for simplicity.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

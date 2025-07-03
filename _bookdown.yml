@@ -1,13 +1,13 @@
 book_filename: "simple-r-cookbook"
 chapters:
   - index.Rmd
-  - 01-introduction.Rmd
-  - 02-getting-started.Rmd
-  - 03-data-import.Rmd
-  - 04-data-wrangling.Rmd
-  - 05-visualization.Rmd
-  - 06-bioinformatics.Rmd
-  - 07-statistics.Rmd
-  - 08-rmarkdown.Rmd
-  - 09-troubleshooting.Rmd
-  - 10-appendices.Rmd
+  - introduction.Rmd
+  - getting-started.Rmd
+  - data-import.Rmd
+  - data-wrangling.Rmd
+  - visualization.Rmd
+  - bioinformatics.Rmd
+  - statistics.Rmd
+  - rmarkdown.Rmd
+  - troubleshooting.Rmd
+  - appendices.Rmd
