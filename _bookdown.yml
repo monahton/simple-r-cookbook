@@ -1,5 +1,5 @@
 book_filename: "simple-r-cookbook"
-chapters:
+rmd_files:
   - index.Rmd
   - introduction.Rmd
   - getting-started.Rmd
